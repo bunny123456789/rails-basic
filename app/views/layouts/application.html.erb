@@ -10,15 +10,18 @@
 
   <body>
     <div class="container">
-      <ul class="nav nav-tabs">
-      <li>  <%= link_to "Home", welcome_index_path %></li>
-<li>  <%= link_to "About", welcome_about_path %></li>
-<li>  <%= link_to "contact", welcome_contact_path %></li>
-<li><%= link_to "Features", welcome_features_path %></li>
-      <li>  <%= link_to "Login", welcome_login_path %></li>
-<li>  <%= link_to "Invoices", invoices_path %></li>
-      </ul>
-
+      <div class="navbar">
+        <div class="navbar-inner">
+          <ul class="nav">
+           <li class="active"><%= link_to "HOME", welcome_index_path %></li>
+              <li class="active"><%= link_to "ABOUT", welcome_about_path %></li>
+           <li class="active">  <%= link_to "CONTACT", welcome_contact_path %></li>
+             <li class="active"><%= link_to "FEATURES", welcome_features_path %></li>
+             <li class="active"><%= link_to "LOGIN", welcome_login_path %></li>
+             <li class="active"><%= link_to "INVOICES", invoices_path %></li>
+        </ul>
+       </div>
+     </div>
     <%= yield %>
     </div>
   </body>
