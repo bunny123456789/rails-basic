@@ -1,24 +1,17 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+CREATECAKEWALK
+==============
+BASIC RAILS APPLICATION.
+==============
+### welcome to the repository
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  2.2.6p396
+### crazy cool software
+* Rapid development
++ Tested
+- 24/7 support
+### Reasons to choose this
+1. Price
+2. Precision
+3. Performance
